@@ -4,9 +4,9 @@ package ejercicio20
 
 fun factorail( numero: Int):Int{
     var factorial=1;
-    for ( i in 1 until numero  ){  //revisar
+    for ( i in 1.. numero  ){  //revisar
 
-        factorial*= (numero-i);
+        factorial*= i;
     }
     return factorial;
 }
