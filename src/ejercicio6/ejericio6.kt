@@ -11,7 +11,7 @@ fun ej6 ( texto : String , sub : String) : Int {
         contador++
         indice = texto.indexOf(sub, indice + 1)
     }
-
+// return cadena.split(sub).size-1
     return contador
 }
 fun main() {
